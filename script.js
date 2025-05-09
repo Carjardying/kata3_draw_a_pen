@@ -34,13 +34,22 @@ console.log(crayon);
 si c'était un tableau : boucle for => chaque fois que je passe à l'index ++, 1ligne de |||| en moins.
 traduire ça */
 let moisMars = calendrierDuCrayon.mars;
-console.log(moisMars);
+console.log("appel hors fonction: " , moisMars);
 
-function drawMyPen(mois){
-    
- //pour tenter. Ne fonctionnera surement pas.
- 
- }
+function drawMyPen(calendrier){
+    const month = calendrier.mois; //vu que ça change
+
+    for (let index = 0; index < calendrier; index++) {
+        console.log("boucle dans fonction for : "); // ne fonctionne pas
+        
+    };
+
+    for (const element of calendrier) {
+        console.log("boucle for of : ",element); // epelle le nom du mois 
+    }
+
+}
 
 
-// drawMyPen('mars'); //affiche mars et non le crayon
+
+drawMyPen('mars'); //affiche mars et non le crayon
