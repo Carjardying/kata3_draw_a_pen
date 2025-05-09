@@ -10,3 +10,9 @@ const calendrierDuCrayon = {
     mai: 2,
     juin: 1,
 };
+
+// function drawMyPen(crayon){
+//  for (const element of object) {
+    
+//  }
+// }
