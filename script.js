@@ -34,19 +34,19 @@ si c'était un tableau : boucle for => chaque fois que je passe à l'index ++, 1
 traduire ça */
 
 
-function drawMyPen(mois){
- console.log(mois);
- if (mois.key == 'mars') {
-    crayon -= `||||
-||||
-||||
-||||
-||||
-||||`
-console.log(crayon); //si placé or du if, affiche le crayon complet.
- } //pour tenter. Ne fonctionnera surement pas.
+// function drawMyPen(mois){
+//  console.log(mois);
+//  if (mois.key == 'mars') {
+//     crayon -= `||||
+// ||||
+// ||||
+// ||||
+// ||||
+// ||||`
+// console.log(crayon); //si placé or du if, affiche le crayon complet.
+//  } //pour tenter. Ne fonctionnera surement pas.
  
- }
+//  }
 
 
-drawMyPen('mars'); //affiche mars et non le crayon
+// drawMyPen('mars'); //affiche mars et non le crayon
