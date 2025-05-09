@@ -28,9 +28,10 @@ function drawMyPen(calendrier, mois){
     let months = calendrier[mois]; //vu dans l'exercice avec les candidates dragrace
 
     for (let index = 0; index < months ; index++) {
-        crayon.push("||||"); //senser ajouter ça au crayon
+        console.log("||||") // resultat undefined
+        // crayon.push("||||"); // senser ajouter ça au crayon
     };
-    return crayon.join("\n") // pour joindre le push au reste dans une seule string
+    // return crayon.join("\n") // pour joindre le push au reste dans une seule string
 }
 
 
